@@ -6,7 +6,7 @@ body { font-family:'Sweet', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; }
 a {color:#333; text-decoration:none;}
 
 .main1 { height: 879px; 
-    background-image: url(./img/main_banner.jpg); 
+    background-image: url(./..img/main_banner.jpg); 
     background-size: cover; 
     padding-top: 750px;
     }
@@ -58,10 +58,10 @@ a {color:#333; text-decoration:none;}
 }
 
 
-.content img {max-width: 100%; }
+.content .img {max-width: 100%; }
 .main2 {background-color: #BCCDBC; text-align:left; padding: 100px 0;  }
 .story  { margin: 50px 0;}
-.story_img { padding:30px 0;}
+.story_.img { padding:30px 0;}
 .story_text { padding: 30px 30px;}
 
 .bg{
@@ -70,7 +70,7 @@ a {color:#333; text-decoration:none;}
 .main2, .main3, .main4, .main5, .main6 {padding: 80px 0; background-color: #BCCDBC;}
 .titile { font-family: 'SB Aggro', serif;}
 
-.main2 { background-image: url(./img/main2_bg.png); background-position: center center; background-size: 128% 93%; background-repeat: no-repeat; padding-top: 300px;}
+.main2 { background-image: url(./.img/main2_bg.png); background-position: center center; background-size: 128% 93%; background-repeat: no-repeat; padding-top: 300px;}
 .main3 { background: linear-gradient(0deg,rgba(188, 205, 188, 1) 0%, rgba(161, 181, 161, 1) 20%, rgba(161, 181, 161, 1) 80%, rgba(188, 205, 188, 1) 100%);}
 .main3 h3 { font-size: 36px; font-weight: bold;}
 .main3 {padding: 250px 0;}
@@ -81,24 +81,24 @@ a {color:#333; text-decoration:none;}
 .part2 { text-align: right; padding-right : 50px;}
 .part1 .part3 { text-align: left; padding-left : 50px;}
 
-.main4 {background-image: url(./img/main3_bg.png); 
+.main4 {background-image: url(./.img/main3_bg.png); 
         background-position: left; background-size: auto 100%; background-repeat: no-repeat;}
 .main4 h2 {padding-top: 150px;}
 .brand_line{ width: 650px;}
 
 .main5 {text-align:left; padding: 100px;}
-.main5 img{ width: 250px;}
+.main5 .img{ width: 250px;}
 .main5 .container {background-color: #C9D7C9; padding: 30px; margin: 20px, auto;}
 .main5 h2 { margin-bottom: 20px; padding: 10px;}
 .news {text-align: left;}
-.newsphoto img { border-radius: 10px; }
+.newsphoto .img { border-radius: 10px; }
 .newsphoto p { background-color: #FAFFE6; border-radius: 10px; border-color: #767676; padding: 5px 10px; margin-top: 10px; width: 250px}
 .newsphoto p { text-align: right;}
 .newsphoto i { font-size: 15px;}
 .main6 {text-align:left; padding: 100px 0;}
 .main6 .titile {margin-bottom: 5px; padding: 10px; padding-left: 550px;}
-.main6 img { border-radius: 85px;}
-.main6 .map img { margin-left: 130px;}
+.main6 .img { border-radius: 85px;}
+.main6 .map .img { margin-left: 130px;}
 .foot {background-color: #484848; color:#fff}
 .foot .foot_copy { padding: 30px 280px;}
 .foot .right {align-content: right; gap: 33px; text-align: right;}
